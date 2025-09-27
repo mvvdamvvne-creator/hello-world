@@ -1,0 +1,19 @@
+body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: linear-gradient(135deg, #550c4a, #b600fe);
+      font-family: Arial, sans-serif;
+    }
+h1 {
+    font-size: 60px;
+    color: white;
+    text-shadow: 2px 2px 10px rgba(0,0,0,0.3);
+    animation: glow 2s infinite alternate;
+    }
+@keyframes glow {
+    from { text-shadow: 2px 2px 10px rgba(0,0,0,0.3); }
+    to { text-shadow: 2px 2px 20px rgba(255,255,255,0.8); }
+    }
